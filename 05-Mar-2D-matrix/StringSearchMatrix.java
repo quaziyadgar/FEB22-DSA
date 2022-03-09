@@ -1,3 +1,9 @@
+// "3. Given a 2-d matrix of characters, write a function that takes this 2-d matrix
+//     and a string and returns whether the string can be formed using characters
+//     of this string. Note that one character from the matrix can be used only 
+//     once."
+
+
 import java.util.Scanner;
 
 public class StringSearchMatrix {

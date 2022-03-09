@@ -1,3 +1,5 @@
+//1. Create and print elements in matrix
+
 import java.util.Scanner;
 
 /**
