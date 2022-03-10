@@ -1,7 +1,8 @@
 {
     "java.project.sourcePaths": [
         "25-Feb-Binary-problems",
+        "06-Mar-Recursion",
         "05-Mar-2D-matrix",
-        "06-Mar-Recursion"
+        "07-Mar-Recursion2"
     ]
 }
