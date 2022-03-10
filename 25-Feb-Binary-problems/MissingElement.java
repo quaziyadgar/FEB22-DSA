@@ -54,8 +54,6 @@ public class MissingElement {
                 break;
             }
         }
-        
-        
     }
 
     public static void main(String[] args) {
