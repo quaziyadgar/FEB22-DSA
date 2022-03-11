@@ -1,20 +1,22 @@
 import java.util.Scanner;
 
-// "1. Sort the string composed of only [a-z] chars in descending order in Linear Time. 
 
-public class SortString {
+// 2. Sort the string composed of only [a-z,A-Z] chars in ascending order in linear Time.        
+
+
+public class SortStringAscend {
     static StringBuffer sb = new StringBuffer();
-    static char ch= 'Z';
+    static char ch= 'A';
     static StringBuffer sortString(String str)
     {
-         if(ch>='A')
+         if(ch<='Z')
          {
              for(int i = 0; i<str.length(); i++)
              {
                 if(str.charAt(i)==ch || str.charAt(i)==ch+32)
                 sb.append(str.charAt(i));
              }
-             --ch;
+             ++ch;
              sortString(str);
          }
          return sb;
@@ -28,3 +30,4 @@ public class SortString {
         sc.close();
     }
 }
+

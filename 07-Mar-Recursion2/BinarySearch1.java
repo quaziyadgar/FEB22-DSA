@@ -1,8 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-import javax.naming.spi.DirStateFactory.Result;
-
 //3. Write a recursive binary search
 
 public class BinarySearch1 {
